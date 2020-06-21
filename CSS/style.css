@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: 'Quicksand', sans-serif;
+  /*line-height: 1.2;*/
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-size: cover;
+  color: rgb(43, 23, 90);
+}
+
+.container {
+  max-width: 850px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.list__element {
+  color: rgb(43, 23, 90);
+  text-decoration: none;
+}
+
+.list__element:hover {
+  color: #7038a8;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.list__element:active {
+  color: currentColor;
+}
+
+.mainHeader {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  text-align: center;
+  font-size: 10px;
+}
+
+.mainHeader__h1 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.mainHeader__img {
+  border-radius: 40px;
+}
+
+.kolor {
+  background: #736f6f;
+}
+
+.table__caption {
+  caption-side: bottom;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.tabela {
+  overflow-x: auto;
+}
+
+.table {
+  font-family: 'Poppins', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  /* background-color: #fafaff */
+}
+
+.table__cell {
+  border: 1px solid #3a1c38;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: #fafaff;
+  /* vertical-align: middle; */
+}
+
+.table__cell--header {
+  background-color: #bb88dd;
+  color: #3a1c38;
+  font-weight: bolder;
+}
+
+/* .table__cell--header:hover {
+  background-color: darkmagenta;
+} */
+
+.table__row {
+  background-color: #f8f9fa;
+}
+
+.table__row:nth-child(even) {
+  background: #ced4da;
+}
+
+.table__row:hover {
+  background-color: #b7b1bc;
+}
+
+.leftSide {
+  text-align: left;
+}
+
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  border: 1px solid;
+}
+
+.przycisk, .button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 80px;
+  outline: none;
+}
+
+/*.table tr:nth-child(even) td {
+  background-color: #fbe4e4;
+}
+
+.table tr:hover td {
+  background-color: #c77a7a;
+}*/
+
+/*.table__row:nth-child(even) {
+  background-color: #ddd;
+}*/

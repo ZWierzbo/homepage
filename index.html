@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="container dark">
+
+        <nav>
+            <ul class="list">
+                <li><a class="list__element" href="#header">Strona główna</a></li>
+                <li><a class="list__element" href="#o-mnie">O mnie</a></li>
+                <li><a class="list__element" href="#zainteresowania">Zainteresowania</a></li>
+                <li><a class="list__element" href="#tabelka">Najpopularniejsze miasta świata</a></li>
+                <li><a class="list__element" href="#interakcje">Przykładowa interakcja</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <header id="header" class="mainHeader">
+                <h1 class="mainHeader__h1">Witajcie na mojej pierwszej stronie!</h1>
+                <img class="mainHeader__img" width="135" height="160" src="images/ja.jpg" alt="Zuzanna Wierzbowska">
+
+            </header>
+
+            <section class="section" id="o-mnie">
+                <h2>O mnie</h2>
+                <p>Cześć, mam na imię Zuza i mam 25 lat.
+                    Pracuję w sektorze finansów, ale chciałabym zmienić branżę i stać się frontend developerem.
+                    Programowanie
+                    zainteresowało mnie juz podczas studiów i od tamtego czasu wydaję mi się, że to bardzo
+                    <em>kreatywne</em>,
+                    <em>rozwijające</em> i <em>satysfakcjonujace</em> zajęcie.
+                </p>
+
+            </section>
+
+            <section class="section" id="zainteresowania">
+                <h2>Pasje i czas wolny</h2>
+                <p><strong>Od najmłodszych lat moimi pasjami sa taniec i podróże.</strong> Kiedy czas pozwala, uwielbiam
+                    też
+                    jeździć
+                    do schronisk i
+                    pomagać zwierzakom. <b>Zapewne dużo z Was zdziwiłoby się,</b> ile rasowych przytulasków znajduje się
+                    w
+                    schroniskach. Przy ostatniej wizycie natrafiłam na <i>maltańczyka</i>, <i>dalmatyńczyka</i> i
+                    <i>huskiego</i>,
+                    aczkolwiek ja osobiście uwielbiam kundelki:) </p>
+            </section>
+
+            <section class="section" id="tabelka">
+                <h2>Najpopularniejsze miasta świata</h2>
+                <div class="tabela">
+                    <table class="table">
+                        <caption class="table__caption">Najczesciej odwiedzane miasta w 2019 roku</caption>
+
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Miasto</th>
+                            <th class="table__cell table__cell--header" scope="col">Panstwo</th>
+                            <th class="table__cell table__cell--header" scope="col">Liczba turystow w mln</th>
+
+                        </tr>
+
+
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">Bangkok</th>
+                            <td class="table__cell">Tajlandia</td>
+                            <td class="table__cell">22,78</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">Paryż</th>
+                            <td class="table__cell">Francja</td>
+                            <td class="table__cell">19,1</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">Londyn</th>
+                            <td class="table__cell">Wielka Brytania</td>
+                            <td class="table__cell">19,09</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell" scope="row">Dubaj</th>
+                            <td class="table__cell">Zjednoczone Emiraty Arabskie</td>
+                            <td class="table__cell">15,93</td>
+                        </tr>
+
+                        <tfoot>
+                            <tr class="table__row">
+                                <th class="table__cell" scope="row">Singapur</th>
+                                <td class="table__cell">Singapur</td>
+                                <td class="table__cell">14,67</td>
+                            </tr>
+                        </tfoot>
+
+
+
+
+                    </table>
+                </div>
+            </section>
+
+            <section class="section" id="interakcje">
+                <h2>Interakcje</h2>
+
+                <button class="przycisk">Ukryj zdjęcie</button>
+                <button class="button">Włącz ciemny motyw</button>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            Wszelkie prawa zastrzezone.
+        </footer>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
