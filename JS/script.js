@@ -1,4 +1,4 @@
-console.log("Niesamowite, ile satysfakcji moze przyniesc czlowiekowi stworzenie czegos :)")
+console.log("Niesamowite, ile satysfakcji moze przyniesc czlowiekowi stworzenie czegos :) Ten kod jest juz w repozytorium Git.")
 
 /*//Zmiana tla
 let przycisk1 = document.querySelector(".tlo");
